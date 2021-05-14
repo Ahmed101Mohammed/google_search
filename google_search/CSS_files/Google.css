@@ -1,0 +1,64 @@
+/*The Footer divs Style*/
+.grey {
+  background-color: #f2f2f2;
+  color: #70757a;
+  padding: 15px 30px;
+  margin-right:-8px;
+  width:1476px
+}
+
+.grey a {
+  color: #70757a
+}
+
+.footer {
+
+}
+
+#Egy {
+  border-bottom: 1px solid #dadce0;
+}
+
+/*The Inputs Style*/
+.sear {
+  background-color: #f8f9fa
+}
+
+/*The Header Style*/
+.hea {
+  color: rgba(0,0,0,0.87)
+}
+
+/*The body paragraph Style*/
+.pra {
+  color: #222
+}
+
+/*search tool style*/
+.search-tool {
+  border: 1px solid #dadce0;
+  width:600px;
+  height: 40px;
+  margin: auto;
+  padding: 0px;
+}
+
+.search-input {
+  width: 430px;
+  height: 20px;
+  border-style: none none none solid;
+}
+
+.div-sea{
+  margin: auto 10px;
+  width: 440px;
+  height: 22px;
+  margin-top: -18px;
+}
+
+/*Google Photo Style*/
+.google-photo {
+  width:270px;
+  border: 1px solid red;
+  margin: auto;
+}
