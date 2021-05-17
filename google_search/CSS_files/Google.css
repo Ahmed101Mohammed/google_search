@@ -4,7 +4,8 @@
   color: #70757a;
   padding: 15px 30px;
   margin-right:-8px;
-  width:1476px
+  min-width:1476px;
+
 }
 
 .grey a {
@@ -12,16 +13,44 @@
 }
 
 .footer {
-
+  position: absolute;
+  bottom:0;
 }
 
+.fa {
+  margin-left: 30px;
+}
+
+.far{
+  margin-right: 30px;
+}
+
+.faa {
+  margin-left: 300px;
+}
+
+.faar {
+  margin-right: 420px;
+}
 #Egy {
   border-bottom: 1px solid #dadce0;
 }
 
 /*The Inputs Style*/
 .sear {
-  background-color: #f8f9fa
+  background-color: #f8f9fa;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 11px 4px;
+  color: #3c4043;
+  font-family: Helvetica Neue,'Noto Naskh Arabic UI',Arial,sans-serif;
+  font-weight: 500;
+
+}
+
+#sears {
+  width:100px;
 }
 
 /*The Header Style*/
@@ -34,31 +63,106 @@
   color: #222
 }
 
+.en {
+  color: #1d13ad;
+}
+
+a {
+  text-decoration: none;
+}
 /*search tool style*/
 .search-tool {
   border: 1px solid #dadce0;
-  width:600px;
-  height: 40px;
+  width:584px;
+  height: 46px;
   margin: auto;
   padding: 0px;
+  position: relative;
 }
 
 .search-input {
-  width: 430px;
-  height: 20px;
-  border-style: none none none solid;
+  width: 447px;
+  height: 34px;
+  border-style: none;
+  border-color: #9b9c9dcf;
+  position: absolute;
+  top: 7.5px;
+  left: 94px;
 }
 
-.div-sea{
-  margin: auto 10px;
-  width: 440px;
-  height: 22px;
-  margin-top: -18px;
+.search-input:focus {
+  border: none;
+  outline: none;
 }
 
+#m {
+  position: absolute;
+  width: 24px;
+  height: 34px;
+  left: 10px;
+  top: 5px;
+}
+
+#k {
+  position: absolute;
+  width: 27px;
+  height: 17px;
+  left: 54px;
+  top: 15px
+}
+
+.sear-sign {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+}
 /*Google Photo Style*/
 .google-photo {
   width:270px;
   border: 1px solid red;
   margin: auto;
+}
+
+/* Body */
+a, .hf, .sf, .sear {
+  cursor: pointer;
+}
+
+.bot {
+
+  border: 2px red solid;
+  width: 201px;
+  margin:auto;
+}
+
+.sp {
+
+  border: 2px red solid;
+  width: 237px;
+  margin:auto;
+}
+
+.gog {
+  width: 272px;
+  height: 92px;
+}
+ /* Header */
+ .hd {
+   direction: ltr;
+ }
+
+.hd img {
+  vertical-align: middle;
+  padding: 10px 0px;
+}
+ #inch {
+   margin: 0px 15px 0px 15px;
+ }
+
+ .hf {
+   margin-right: 30px;
+ }
+
+#pho {
+  margin-right: 15px;
 }
